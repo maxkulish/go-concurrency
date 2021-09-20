@@ -19,10 +19,8 @@ func main() {
 				case <-done:
 					return
 				}
-
 			}
 		}()
-
 		return randStream
 	}
 
